@@ -1,0 +1,23 @@
+{
+  "name": "Lean 4 + Mathlib",
+
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+
+  "updateContentCommand": "lake exe cache get",
+
+  "hostRequirements": {
+    "cpus": 4,
+    "memory": "8gb"
+  },
+
+  "customizations": {
+    "vscode": {
+      "extensions": ["leanprover.lean4"]
+    },
+    "codespaces": {
+      "openFiles": ["LeanTemplate/Basic.lean"]
+    }
+  }
+}

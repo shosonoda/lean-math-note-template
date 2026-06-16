@@ -4,7 +4,7 @@ Lean 4 と [Mathlib](https://github.com/leanprover-community/mathlib4) を、Git
 
 ローカル環境に Lean や VS Code 拡張をインストールする必要はありません。ブラウザ上で Codespace を起動すると、Lean 4 + Mathlib の環境が自動で用意されます。
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/yuta0x89/lean-course-template?quickstart=1)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/shosonoda/lean-math-note-template?quickstart=1)
 
 ## 使い方
 

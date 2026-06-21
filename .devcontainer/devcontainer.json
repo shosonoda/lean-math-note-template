@@ -5,7 +5,7 @@
     "dockerfile": "Dockerfile"
   },
 
-  "updateContentCommand": "lake exe cache get",
+  "updateContentCommand": "lake exe cache get && lake --rehash build @proofwidgets/widgetJsAll",
 
   "hostRequirements": {
     "cpus": 4,

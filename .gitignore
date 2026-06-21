@@ -1,1 +1,11 @@
-.lake
+# cache and other artifacts produced by Lean's Lake build tool
+.lake/
+
+# cache produced by Python tooling
+__pycache__/
+*.py[cod]
+
+# artifacts produced by MkDocs site generation
+site-pages/
+.mkdocs.generated.yml
+site-src/chapter*.md

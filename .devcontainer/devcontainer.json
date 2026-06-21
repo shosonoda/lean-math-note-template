@@ -17,7 +17,7 @@
       "extensions": ["leanprover.lean4"]
     },
     "codespaces": {
-      "openFiles": ["LeanTemplate/Basic.lean"]
+      "openFiles": ["LeanMathNote/Basic.lean"]
     }
   }
 }

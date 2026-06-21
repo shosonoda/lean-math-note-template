@@ -24,19 +24,21 @@ Lean 4 と [Mathlib](https://github.com/leanprover-community/mathlib4) を、Git
 
 Codespace が起動したら、次のファイルを開いてください。
 
-[LeanTemplate/Basic.lean](LeanTemplate/Basic.lean)
+[test.lean](test.lean)
 
 このファイルを編集して、定義や証明を書いていきます。
 
 ### 3. 動作確認
 
-`LeanTemplate/Basic.lean` には、次のような簡単な例が含まれています。
+`test.lean` には、次のような簡単な例が含まれています。
 
 ```lean
 import Mathlib
 
-example (n : ℕ) : n + 0 = n := by
-  simp
+#eval 1 + 1
+
+example : 1 + 1 = 2 := by
+  norm_num
 ```
 
 エディタ上でエラーが表示されなければ、Lean と Mathlib の環境は正しく動作しています。
@@ -49,5 +51,5 @@ GitHub の左下メニュー、または GitHub の Codespaces 管理画面か�
 
 ## バージョン
 
-* Lean 4.28.0
+* Lean 4.30.0
 * Mathlib は `lakefile.toml` で指定されたバージョンを使用します。
